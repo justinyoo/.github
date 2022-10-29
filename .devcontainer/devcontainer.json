@@ -14,13 +14,13 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
     // Azure Functions
-    7071,
+    // 7071,
     // Azurite
-    10000, 10001, 10002,
+    // 10000, 10001, 10002,
     // ASP.NET Core Web/API App, Blazor App
-    5000, 5001,
+    // 5000, 5001,
     // Azure Static Web Apps
-    4280
+    // 4280
   ],
 
   "features": {
@@ -63,18 +63,18 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         // Recommended extensions - GitHub
-        // "cschleiden.vscode-github-actions",
-        // "GitHub.vscode-pull-request-github",
+        "cschleiden.vscode-github-actions",
+        "GitHub.vscode-pull-request-github",
 
         // Recommended extensions - Azure
         // "Azurite.azurite",
         // "ms-azuretools.vscode-bicep",
 
         // Recommended extensions - Collaboration
-        // "eamodio.gitlens",
-        // "EditorConfig.EditorConfig",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
         // "MS-vsliveshare.vsliveshare-pack",
-        // "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker",
 
         // Recommended extensions - .NET
         // "Fudge.auto-using",
@@ -85,11 +85,11 @@
         // "microsoft-IsvExpTools.powerplatform-vscode",
 
         // Recommended extensions - Markdown
-        // "bierner.github-markdown-preview",
-        // "DavidAnson.vscode-markdownlint",
-        // "docsmsft.docs-linting",
-        // "johnpapa.read-time",
-        // "yzhang.markdown-all-in-one",
+        "bierner.github-markdown-preview",
+        "DavidAnson.vscode-markdownlint",
+        "docsmsft.docs-linting",
+        "johnpapa.read-time",
+        "yzhang.markdown-all-in-one",
 
         // Required extensions
         "GitHub.copilot",

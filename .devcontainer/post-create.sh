@@ -7,7 +7,7 @@ git config --global pull.rebase false
 git config --global core.autocrlf input
 
 ## Enable local HTTPS for .NET
-dotnet dev-certs https --trust
+# dotnet dev-certs https --trust
 
 ## CaskaydiaCove Nerd Font
 # Uncomment the below to install the CaskaydiaCove Nerd Font
